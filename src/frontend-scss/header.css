@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+.headerCompContainer .navbar {
+  background-color: #fff2db !important;
+}
+
+.headerCompContainer .navbar .nav-link {
+  font-family: 'Padauk', sans-serif;
+  color: black;
+  font-size: 30px;
+  border-color: blue;
+}
+
+.headerCompContainer .navbar .nav-link:hover {
+  color: black;
+  border-color: blue;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.headerCompContainer .navbar .brand {
+  color: black;
+  font-size: 35px;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.headerCompContainer .navbar .brand:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+/*# sourceMappingURL=header.css.map */

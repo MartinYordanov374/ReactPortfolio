@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+html {
+  overflow-x: none;
+  overflow-y: none;
+  background-color: #fff2db;
+  scroll-behavior: smooth;
+}
+
+.projectsWrapper {
+  background-color: #fff2db !important;
+}
+
+.projectsWrapper .projectsList {
+  height: 50vh;
+  margin-bottom: 10%;
+  display: none;
+}
+
+.projectsWrapper .projectsList .projectWrapper {
+  margin-top: 2%;
+  background-color: f #fff2db !important;
+  width: 50%;
+  margin-left: 26%;
+}
+
+.projectsWrapper .projectsList .projectWrapper .projectName {
+  font-size: 25px;
+}
+
+.projectsWrapper .projectsList .projectWrapper .projectStack {
+  font-size: 25px;
+}
+
+.projectsWrapper .projectsList .projectWrapper .projectLink {
+  font-size: 25px;
+  text-decoration: none;
+  color: #007500;
+  -webkit-transition: linear 0.6s;
+  transition: linear 0.6s;
+}
+
+.projectsWrapper .projectsList .projectWrapper .projectLink:hover {
+  color: #00c700;
+  -webkit-transition: linear 0.6s;
+  transition: linear 0.6s;
+}
+
+.projectsWrapper .projectsList .projectWrapper .projectDuration {
+  font-size: 25px;
+}
+/*# sourceMappingURL=projects.css.map */

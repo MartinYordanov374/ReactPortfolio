@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@mixin linkBehaviour(){
+    transition: linear 0.2s;
+    &:hover{
+        transform: scale(1.5);
+        transition: linear 0.2s
+    }
+}
+$background-color: rgb(255, 242, 219);
+.headerCompContainer{
+
+    .navbar{
+        // background-color: black !important;
+        background-color:  $background-color !important;
+
+        .nav-link{
+            // color: #32CD32 !important;
+            font-family: 'Padauk', sans-serif;
+            color: black;
+            font-size: 30px;
+            border-color: blue;
+            &:hover{
+                color: black;
+                border-color: blue;
+                border-style: solid;
+                border-top: none;
+                border-left: none;
+                border-right:none;
+                
+            }   
+        }
+        .brand{
+            color: black;
+            font-size: 35px;
+            @include linkBehaviour()
+        }
+
+
+    }
+}

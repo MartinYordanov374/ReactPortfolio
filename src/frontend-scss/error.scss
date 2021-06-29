@@ -1,0 +1,12 @@
+.errorPageWrapper{
+    background-color: rgb(255, 242, 219);
+
+    .errorMessageContainer{
+        margin-top: 12%;
+        height: 50vh;
+        .errorMessage{
+            font-size: 50px;
+
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.errorPageWrapper {
+  background-color: #fff2db;
+}
+
+.errorPageWrapper .errorMessageContainer {
+  margin-top: 12%;
+  height: 50vh;
+}
+
+.errorPageWrapper .errorMessageContainer .errorMessage {
+  font-size: 50px;
+}
+/*# sourceMappingURL=error.css.map */

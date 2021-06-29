@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+@mixin textProps{
+    font-size: 25px;
+
+}
+$background-color:rgb(255, 242, 219);
+html{
+    overflow-x: none;
+    overflow-y: none;
+    background-color: $background-color;
+    scroll-behavior: smooth;
+
+}
+.projectsWrapper{
+    background-color: $background-color !important;
+
+    .projectsList{
+        height: 50vh;
+        margin-bottom: 10%;
+        display: none;
+        .projectWrapper{
+            margin-top: 2%;
+            background-color: f$background-color!important;
+            width: 50%;
+            margin-left: 26%;
+            .projectName{
+                @include textProps();
+            }
+            .projectStack{
+                @include textProps();
+
+            }
+            .projectLink{
+                @include textProps();
+                text-decoration: none;
+                color: rgb(0, 117, 0);
+                transition: linear 0.6s;
+                &:hover{
+                    color: rgb(0, 199, 0);
+                    transition: linear 0.6s;
+                }
+
+            }
+            .projectDuration{
+                @include textProps();
+
+            }
+        }
+    }
+}

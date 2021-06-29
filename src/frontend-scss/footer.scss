@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+$header-color: rgb(240, 240, 240);
+.footerWrapper{
+    .footerSections{
+        display: flex;
+        background-color: #d2691e;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        .aboutSection{
+            width: 50%;
+            .footerAboutSectionHeader{
+                color: $header-color;
+            }
+        }
+        .biggestProjectSection{
+            margin-left: 10%;
+            width: 50%;
+
+            .biggestProjectSectionHeader{
+                color: $header-color;
+
+            }
+        }
+        .contactSection{
+            width: 50%;
+            .contactsSectionHeader{
+                color: $header-color;
+            }
+            .githubLink{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    color: #C0C0C0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+.pageWrapper {
+  background-color: #fff2db;
+}
+
+.pageWrapper .MainContainer {
+  display: -ms-grid;
+  display: grid;
+}
+
+.pageWrapper .MainContainer .welcomeTextContainer {
+  width: 50%;
+  margin-top: 15%;
+  display: none;
+}
+
+.pageWrapper .MainContainer .welcomeTextContainer .welcomeText {
+  font-family: 'Merienda', cursive;
+  font-size: 80px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .welcomeTextContainer .welcomeSubText {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .projectsStatisticsContainer {
+  float: right;
+  margin-top: 7%;
+  margin-left: 50%;
+  display: none;
+}
+
+.pageWrapper .MainContainer .projectsStatisticsContainer .projectsStatistics {
+  font-family: 'Merienda', cursive;
+  font-size: 80px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .projectsStatisticsContainer .projectsCompleted {
+  font-size: 30px;
+  font-family: 'Merienda', cursive;
+}
+
+.pageWrapper .MainContainer .techStackContainer {
+  margin-top: 7%;
+  margin-right: 60%;
+  display: none;
+}
+
+.pageWrapper .MainContainer .techStackContainer .techStackHeading {
+  font-family: 'Merienda', cursive;
+  font-size: 80px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .techStackContainer .techStackInfo {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .futureGoals {
+  float: right;
+  margin-top: 7%;
+  margin-left: 50%;
+  display: none;
+}
+
+.pageWrapper .MainContainer .futureGoals .futureGoalsHeading {
+  font-family: 'Merienda', cursive;
+  font-size: 80px;
+  color: black;
+}
+
+.pageWrapper .MainContainer .futureGoals .FutureGoal {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  color: black;
+}
+/*# sourceMappingURL=homePage.css.map */
