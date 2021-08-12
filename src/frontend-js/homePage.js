@@ -58,6 +58,7 @@ export default function HomePage() {
             <div className='HeaderContainer'>
                 <Header/>
             </div>
+
             <div className='MainContainer'>
                 <div className='welcomeTextContainer'>
                     <p className='welcomeText'>Hello, I am Martin!</p>

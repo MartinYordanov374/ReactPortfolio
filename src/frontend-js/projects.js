@@ -34,6 +34,12 @@ export default class projects extends Component {
                     link: 'https://github.com/GoofyGalaxy374/ProjectManager'
                 },
                 {
+                    name: 'Money Manager',
+                    stack: 'Python, TKinter, MySQL',
+                    duration: '~1 week',
+                    link: 'https://github.com/GoofyGalaxy374/MoneyManager'
+                },
+                {
                     name: 'Portfolio',
                     stack: 'ReactJS',
                     duration: '2 days',
@@ -45,6 +51,7 @@ export default class projects extends Component {
                     duration: '2 hours',
                     link: 'https://github.com/GoofyGalaxy374/Flappy-Bird-Remake'
                 },
+
             ]
         }
     }

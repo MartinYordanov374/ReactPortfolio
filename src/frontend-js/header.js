@@ -6,8 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../frontend-scss/header.css'
 export default function Header() {
     return (
-        <div className='headerCompContainer'> 
-            <Navbar className='navbar navbar-expand-md navbar-dark bg-dark'>
+        <div className='headerCompContainer'>
+
+            <Navbar className='navbar navbar-expand-md navbar-dark bg-dark col-sm'>
                     <Nav.Item className='navbar-nav mr-auto justify-content-between'>
                         <Nav.Link className='nav-link mx-5 mr-auto' href='/home'>Home</Nav.Link>
                     </Nav.Item>
