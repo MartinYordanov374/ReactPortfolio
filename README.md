@@ -1,1 +1,1 @@
-##This is an updated version of my portfolio in React
+This is an updated version of my portfolio in React
